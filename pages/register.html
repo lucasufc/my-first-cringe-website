@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Cadastro</title>
+</head>
+<body >
+    <nav class="navbar navbar-expand-sm navbar-light bg-danger fixed-top py-3">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="../home.html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="food-recipes.html">Receitas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="register.html">Cadastro</a>
+                </li>
+            </ul>       
+        </div>
+    </nav>
+
+    <section id="form" class="container-fluid d-flex justify-content-center">    
+        <div class="row d-flex flex-column">
+            <h1 class="text-danger">Efetue seu Cadastro</h1>
+            <form class="col-4"action="">
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="input-nome">Nome</label>
+                        <input class="form-control" id="input-nome" 
+                        placeholder="nome completo" type="text">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="input-email">e-mail</label>
+                        <input class="form-control" id="input-email" 
+                        placeholder="e-mail" type="text">
+                    </div>
+                    <div class="form-group col-md-3 col-6">
+                        <label for="input-cep">CEP</label>
+                        <input class="form-control" id="input-cep" 
+                        placeholder="xxxxxxxxx-xx" type="text">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="input-rua">Rua</label>
+                        <input class="form-control" id="input-rua" 
+                        type="text">
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="input-numero">Número</label>
+                        <input class="form-control" id="input-numero"
+                        type="text">
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="input-compl">complemento</label>
+                        <input class="form-control" id="input-compl"
+                        type="text">
+                    </div>
+                    <div class="form-group col-md-7">
+                        <label for="input-cidade">Cidade</label>
+                        <input class="form-control" id="input-cidade"  type="text">
+                    </div>
+                    <div class="form-group col-md-5 col-6">
+                        <label for="input-estado">Estado</label>
+                        <select class="form-control" id="input-cidade">
+                            <option>Selecione o estado</option>
+                            <option>São Paulo</option>
+                            <option>Rio de Janeiro</option>
+                            <option>Minas Gerais</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-lg btn-danger">Cadastrar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center mt-5 fixed-bottom">
+        <p>©DamasDebora 2023</p>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" i
+    ntegrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+    crossorigin="anonymous"></script>
+</body>
+</html>

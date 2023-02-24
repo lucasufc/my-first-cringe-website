@@ -1,0 +1,19 @@
+.card {
+    /*Desculpa, achei 200px muito feio aqui, então coloquei 300px*/
+    width: 300px; 
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.text-area {
+    padding: 15px;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 50px;
+}
+
